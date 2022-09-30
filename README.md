@@ -6,10 +6,25 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ![](/design/desktop-preview.jpg)
 
-Link:
+Link: https://app.netlify.com/sites/spiffy-chimera-6f898d/overview
 
 ### Built with:
 
 - Parcel
 - Bootstrap
 - SASS
+
+🔧 Comando para instalar las dependencias 
+
+```
+npm install
+```
+🔧 Comando para iniciar el servidor de desarrollo
+```
+npm run dev
+```
+🔧 Comando para crear la build
+```
+npm run build
+```
+
