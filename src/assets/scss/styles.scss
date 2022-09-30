@@ -1,0 +1,77 @@
+// Importacion de mis variables/modificaciones.
+@import "./abstracts/variables";
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: $cream;
+}
+
+.article-card {
+  width: 600px;
+
+  &__title {
+    font-family: "Fraunces", serif;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    color: $very-Dark-Blue;
+  }
+
+  &__type {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+    color: $dark-Grayish-Blue;
+    font-size: 0.7rem;
+  }
+
+  &__description {
+    color: $dark-Grayish-Blue;
+    font-size: 0.93rem;
+  }
+
+  &__price {
+    font-size: 2rem;
+    font-family: "Fraunces", serif;
+    color: $dark-Cyan;
+  }
+
+  &__old-price {
+    color: $dark-Grayish-Blue;
+    font-size: 0.9rem;
+  }
+
+  &__btn {
+    background-color: $dark-Cyan;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+  }
+
+  &__btn:hover {
+    background-color: #194131;
+  }
+}
+
+@media (max-width: 1399px) {
+  .article-card {
+    width: 343px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .article-card__img-container {
+    width: 880px;
+  }
+}
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  color: $dark-Cyan;
+}
