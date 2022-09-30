@@ -6,7 +6,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ![](/design/desktop-preview.jpg)
 
-Link: https://app.netlify.com/sites/spiffy-chimera-6f898d/overview
+Link: https://spiffy-chimera-6f898d.netlify.app/
 
 ### Built with:
 
